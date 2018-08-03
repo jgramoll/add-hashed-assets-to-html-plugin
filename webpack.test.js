@@ -6,5 +6,5 @@ module.exports = Object.assign({}, webpackBase, {
   output: {
     path: path.resolve(__dirname, 'test-runner'),
     filename: 'index.js'
-  },
+  }
 })

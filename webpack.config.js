@@ -8,12 +8,12 @@ module.exports = {
       {
         test: /\.js$/,
         include: [
-          path.resolve(__dirname, 'src'),
+          path.resolve(__dirname, 'src')
         ],
         use: {
           loader: 'babel-loader',
           options: {
-            presets: [ 'env', ],
+            presets: [ 'env' ],
             plugins: [
               'transform-class-properties'
             ],

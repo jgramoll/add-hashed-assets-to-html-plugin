@@ -1,7 +1,13 @@
 {
   "name": "add-hashed-assets-to-html-plugin",
   "description": "Add JS or CSS assets with hash to webpack generated HTML file.",
-  "version": "0.0.1",
+  "keywords": [
+    "webpack",
+    "webpack-plugin",
+    "html-webpack-plugin",
+    "fingerprinting"
+  ],
+  "version": "0.0.5",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
@@ -15,7 +21,8 @@
     "lint": "eslint src/**/*.js",
     "prepublish": "yarn test && yarn build",
     "test:build": "webpack --config webpack.test.js",
-    "test": "NODE_ENV=test yarn test:build && nyc --reporter=html --reporter=text --include src --all mocha test-runner"
+    "test": "NODE_ENV=test yarn test:build && nyc --reporter=html --reporter=text --include src --all mocha test-runner",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "md5-file": "^4.0.0"
@@ -27,6 +34,7 @@
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
     "eslint": "^5.2.0",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.13.0",

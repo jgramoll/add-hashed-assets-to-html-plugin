@@ -36,4 +36,4 @@ class AddHashedAssetsToHtmlPlugin {
   }
 }
 
-export default AddHashedAssetsToHtmlPlugin
+module.exports = AddHashedAssetsToHtmlPlugin

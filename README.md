@@ -1,6 +1,7 @@
 # add-hashed-assets-to-html-plugin
 [![Build Status](https://travis-ci.org/jgramoll/add-hashed-assets-to-html-plugin.svg?branch=master)](https://travis-ci.org/jgramoll/add-hashed-assets-to-html-plugin)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a8177620695f401b93c393e42158e9c2)](https://www.codacy.com/project/jgramoll/add-hashed-assets-to-html-plugin/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jgramoll/add-hashed-assets-to-html-plugin&amp;utm_campaign=Badge_Grade_Dashboard)
+[![Coverage Status](https://coveralls.io/repos/github/jgramoll/add-hashed-assets-to-html-plugin/badge.svg?branch=master)](https://coveralls.io/github/jgramoll/add-hashed-assets-to-html-plugin?branch=master)
 
 ## About
 

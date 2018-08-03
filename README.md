@@ -26,11 +26,11 @@ plugins: [
     assets: [
       {
         from: path.join(root, 'src/dependencies.css'),
-        to:   path.join(root, 'dist/dependencies.[hash].css'),
+        to:   path.join(root, 'dependencies.[hash].css'),
       },
       {
         from: path.join(root, 'src/dependencies.js'),
-        to:   path.join(root, 'dist/dependencies.[hash].js'),
+        to:   path.join(root, 'dependencies.[hash].js'),
       }
     ]
   })

@@ -7,7 +7,7 @@
     "html-webpack-plugin",
     "fingerprinting"
   ],
-  "version": "0.0.5",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
   "files": [
@@ -19,7 +19,7 @@
   "scripts": {
     "build": "webpack",
     "lint": "eslint src/**/*.js",
-    "prepublish": "yarn test && yarn build",
+    "prepare": "yarn test && yarn build",
     "test:build": "webpack --config webpack.test.js",
     "test": "NODE_ENV=test yarn test:build && nyc --reporter=html --reporter=text --include src --all mocha test-runner",
     "coverage": "nyc report --reporter=text-lcov | coveralls"

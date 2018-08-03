@@ -1,0 +1,31 @@
+{
+  "name": "add-hashed-assets-to-html-plugin",
+  "description": "Add JS or CSS assets with hash to webpack generated HTML file.",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=8.10"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint",
+    "test": "webpack --config webpack.test.js && mocha test-runner"
+  },
+  "dependencies": {
+    "md5-file": "^4.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^5.2.0",
+    "mocha": "^5.2.0",
+    "webpack": "^4.16.4",
+    "webpack-cli": "^3.1.0"
+  },
+  "peerDependencies": {
+    "html-webpack-plugin": "^3.2.0"
+  }
+}
